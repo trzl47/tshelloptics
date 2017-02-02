@@ -76,8 +76,6 @@ ul li {
 }
 /* ./Header */
 
-/* Service Sections */
-
 .service.container {
   display: flex;
   justify-content: center;
@@ -102,3 +100,31 @@ ul li {
 	width: 3.5rem;
 }
 /* ./Service Sections */
+
+/* Info Section */
+
+.supporting.container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.info {
+	width: 35%;
+	margin-right: 5%;
+	margin-bottom: 4rem;
+}
+
+.info p {
+	padding: 1rem 0;
+}
+
+.title {
+	background-color: cadetblue;
+	padding: 0.5rem 1.25rem;
+	font-weight: bold;
+	color: white;
+	max-width: 10rem;
+}
+
+/* ./Info Section */

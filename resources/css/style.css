@@ -75,3 +75,30 @@ ul li {
 	font-size: 2rem;
 }
 /* ./Header */
+
+/* Service Sections */
+
+.service.container {
+  display: flex;
+  justify-content: center;
+}
+.service.container .service {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	margin: 3rem;
+	width: 5rem;
+	height: 8rem;
+}
+
+.service img {
+	width: 5rem;
+	margin-bottom: 1rem;
+}
+
+.service img.paper-icon {
+	width: 3.5rem;
+}
+/* ./Service Sections */
